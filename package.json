@@ -1,6 +1,6 @@
 {
-  "name": "waterlock-local-auth",
-  "version": "v0.1.2-rc1",
+  "name": "waterlock-local-auth-node10",
+  "version": "v0.1.3-rc1",
   "description": "local authentication for waterlock",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "authentication",
     "sails"
   ],
-  "devDependencies":{
+  "devDependencies": {
     "mocha": "*",
     "should": "*",
     "proxyquire": "*",
@@ -24,14 +24,14 @@
     "istanbul": "*",
     "jshint": "*"
   },
-  "dependencies":{
-    "bcrypt": "~0.8.5",
-    "lodash": "~3.10.0",
-    "moment": "~2.10.6",
-    "nodemailer": "1.4.0",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
     "jade": "~1.11.0",
     "jwt-simple": "~0.3.0",
-    "node-uuid": "~1.4.2"
+    "lodash": "~3.10.0",
+    "moment": "~2.10.6",
+    "node-uuid": "~1.4.2",
+    "nodemailer": "1.4.0"
   },
   "author": "David Rivera <david.r.rivera193@gmail.com>",
   "contributors": [
